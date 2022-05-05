@@ -19,4 +19,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: install
-      run: make all
+      run: |
+        make install
+        make run
+        make test
+
