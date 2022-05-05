@@ -1,1 +1,0 @@
-diff out.txt test.txt || exit 1

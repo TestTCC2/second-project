@@ -78,7 +78,7 @@ token code: 264, token class: MINUS, lexeme: -
 token code: 261, token class: ID, lexeme: a
 token code: 272, token class: RIGHTPARENTHESIS, lexeme: )
 token code: 267, token class: SEMICOLON, lexeme: ;
-token code: 274, token class: BLANK, lexemdas
+token code: 274, token class: BLANK, lexeme
 
 
 
