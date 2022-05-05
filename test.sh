@@ -1,1 +1,1 @@
-diff -w -u1 --color=auto --palette='ad=1;3;38;5;154:de=1;3;38;5;9' out.txt test.txt  && echo "OK" || result=1
+diff out.txt test.txt || result=1
