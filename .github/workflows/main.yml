@@ -20,8 +20,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       - name: install
-        run: make test
-      - name: compile files
-        run: make run
-      - name: make test
-        run: make test
+        run: make all
