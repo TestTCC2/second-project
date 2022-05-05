@@ -9,7 +9,7 @@ run:
 	./e1 < exemplo.e1 >> out.txt
 
 test:
-	sh ./tests/test_main.sh
+	sh test.sh
 
 bla:
 	echo 'bla'
