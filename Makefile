@@ -9,13 +9,7 @@ run:
 	./e1 < exemplo.e1 >> out.txt
 
 test:
-	sh test.sh
-
-bla:
-	echo 'bla'
-
-ble:
-	echo 'ble'
+	diff out.txt test.txt || exit 1
 
 all:
 	make install
