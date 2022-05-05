@@ -1,6 +1,6 @@
 install:
-	apt-get install -f flex
-	apt-get install bison
+	sudo apt-get install -f flex
+	sudo apt-get install bison
 
 run: 
 	bison -d e1.y
