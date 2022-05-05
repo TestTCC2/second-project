@@ -1,1 +1,1 @@
-diff out.txt test.txt || result=1
+diff out.txt test.txt || exit 1

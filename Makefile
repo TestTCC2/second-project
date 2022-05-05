@@ -20,4 +20,4 @@ ble:
 all:
 	make install
 	make run
-	make test
+	make test	
