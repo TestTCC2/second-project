@@ -9,7 +9,7 @@ run:
 	./e1 < exemplo.e1 >> out.txt
 
 test:
-	diff -w -u1 --color=auto --palette='ad=1;3;38;5;154:de=1;3;38;5;9' out.txt test.txt  && echo "OK" || result=1
+	sh ./tests/test_main.sh
 
 bla:
 	echo 'bla'
