@@ -1,0 +1,84 @@
+token code: 258, token class: COMMENT, lexeme: // programa na linguagem E1 sem erros léxicos
+token code: 274, token class: BLANK, lexeme: 
+
+token code: 258, token class: COMMENT, lexeme: // palavras-chave: const int return void
+token code: 274, token class: BLANK, lexeme: 
+
+token code: 258, token class: COMMENT, lexeme: // simbolos: +  -  *  /  =  ;   (  )
+token code: 274, token class: BLANK, lexeme: 
+
+    
+token code: 260, token class: INT, lexeme: int
+token code: 274, token class: BLANK, lexeme:  
+token code: 261, token class: ID, lexeme: a_bar
+token code: 267, token class: SEMICOLON, lexeme: ;
+token code: 274, token class: BLANK, lexeme: 
+    
+token code: 259, token class: CONST, lexeme: const
+token code: 274, token class: BLANK, lexeme:  
+token code: 260, token class: INT, lexeme: int
+token code: 274, token class: BLANK, lexeme:  
+token code: 261, token class: ID, lexeme: b
+token code: 274, token class: BLANK, lexeme:  
+token code: 270, token class: EQUAL, lexeme: =
+token code: 274, token class: BLANK, lexeme:  
+token code: 265, token class: NUM, lexeme: 25
+token code: 267, token class: SEMICOLON, lexeme: ;
+token code: 274, token class: BLANK, lexeme: 
+    
+token code: 260, token class: INT, lexeme: int
+token code: 274, token class: BLANK, lexeme:  
+token code: 261, token class: ID, lexeme: c
+token code: 267, token class: SEMICOLON, lexeme: ;
+token code: 274, token class: BLANK, lexeme: 
+    
+token code: 260, token class: INT, lexeme: int
+token code: 274, token class: BLANK, lexeme:  
+token code: 261, token class: ID, lexeme: q1
+token code: 267, token class: SEMICOLON, lexeme: ;
+token code: 274, token class: BLANK, lexeme: 
+
+    
+token code: 261, token class: ID, lexeme: a_bar
+token code: 274, token class: BLANK, lexeme:  
+token code: 270, token class: EQUAL, lexeme: =
+token code: 274, token class: BLANK, lexeme:  
+token code: 265, token class: NUM, lexeme: 40
+token code: 267, token class: SEMICOLON, lexeme: ;
+token code: 274, token class: BLANK, lexeme: 
+    
+token code: 261, token class: ID, lexeme: c
+token code: 274, token class: BLANK, lexeme:  
+token code: 270, token class: EQUAL, lexeme: =
+token code: 274, token class: BLANK, lexeme:  
+token code: 261, token class: ID, lexeme: b
+token code: 268, token class: MULT, lexeme: *
+token code: 261, token class: ID, lexeme: b
+token code: 274, token class: BLANK, lexeme:  
+token code: 266, token class: PLUS, lexeme: +
+token code: 274, token class: BLANK, lexeme:  
+token code: 261, token class: ID, lexeme: a_bar
+token code: 267, token class: SEMICOLON, lexeme: ;
+token code: 274, token class: BLANK, lexeme: 
+
+    
+token code: 262, token class: RETURN, lexeme: return
+token code: 274, token class: BLANK, lexeme:  
+token code: 261, token class: ID, lexeme: q1
+token code: 274, token class: BLANK, lexeme:  
+token code: 270, token class: EQUAL, lexeme: =
+token code: 274, token class: BLANK, lexeme:  
+token code: 261, token class: ID, lexeme: c
+token code: 274, token class: BLANK, lexeme:  
+token code: 269, token class: DIV, lexeme: /
+token code: 274, token class: BLANK, lexeme:  
+token code: 271, token class: LEFTPARENTHESIS, lexeme: (
+token code: 261, token class: ID, lexeme: c
+token code: 264, token class: MINUS, lexeme: -
+token code: 261, token class: ID, lexeme: a
+token code: 272, token class: RIGHTPARENTHESIS, lexeme: )
+token code: 267, token class: SEMICOLON, lexeme: ;
+token code: 274, token class: BLANK, lexeme: 
+
+
+
