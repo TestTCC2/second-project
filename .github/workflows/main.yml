@@ -16,8 +16,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
-      - name: install
-        run: make all
+    - name: install
+      run: make all
