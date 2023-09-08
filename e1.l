@@ -16,7 +16,7 @@ void yyerror(char *s);
 "//".*                { return COMMENT;   }
 
 const                 { return CONST; }
-inte                   { return INT; }
+int                   { return INT; }
 return                { return RETURN; }
 void                  { return VOID; }
 
